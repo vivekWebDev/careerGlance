@@ -1,0 +1,47 @@
+body{
+    background-color: #ffff;
+    height: 100%;
+    margin: 1px;  
+}
+.resume-container{
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+}
+.left-view{
+    flex: 35%;
+    background-color: #068d9ad9; 
+    margin: 2px;
+    border-radius: 10px;
+    padding: 1%;
+}
+.right-view{
+    flex: 65%;
+    background-color: #f3f2f2c9;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 1%;
+}
+.image-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+}
+hr{
+    flex: 17.5%;
+    background: black;
+    margin: 0px;
+    box-shadow: none;
+    border-color: black;
+}
+.image-box{
+    flex: 65%;
+    height: 15rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #252222;
+}
