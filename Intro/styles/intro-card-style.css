@@ -1,7 +1,7 @@
 body{
     background-color: #ffff;
-    height: 100%;
     margin: 1px;  
+    font-family: 'Roboto', open-sans;
 }
 .resume-container{
     display:flex;
@@ -9,14 +9,15 @@ body{
     height: 100%;
 }
 .left-view{
-    flex: 35%;
+    flex: 30%;
     background-color: #068d9ad9; 
     margin: 2px;
     border-radius: 10px;
     padding: 1%;
+    color: #d2d0cd;
 }
 .right-view{
-    flex: 65%;
+    flex: 70%;
     background-color: #f3f2f2c9;
     margin: 2px;
     border-radius: 10px;
@@ -28,20 +29,60 @@ body{
     display: flex;
     margin-top: 25px;
 }
-hr{
+.image-hr{
     flex: 17.5%;
     background: black;
     margin: 0px;
     box-shadow: none;
     border-color: black;
 }
+hr{
+    background: rgb(195 192 192);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-color: rgb(195 192 192);
+}
 .image-box{
     flex: 65%;
-    height: 15rem;
-    width: 15rem;
+    height: 14rem;
+    width: 14rem;
     background-color: white;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     border: 2px solid #252222;
+}
+.info-card{
+    margin-top: 3%;
+}
+.info-heading{
+    font-size: 2.1vw;
+}
+.info-contents{
+    font-size: 1.7vw;
+    margin-top: 5%;
+}
+.info-content-data{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+}
+.icon-area{
+    flex: 12;
+    }
+.icon-info-area{
+
+flex: 80;
+}
+a {
+    color: #d2d0cd;
+}
+.next{
+    margin-top: 10%;
+}
+@media (max-width: 768px) {
+    .image-box {
+        height: 4rem;
+    width: 4rem;
+    }
 }
