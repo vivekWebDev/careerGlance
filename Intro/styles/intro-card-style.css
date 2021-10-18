@@ -18,11 +18,12 @@ body {
   color: #d2d0cd;
 }
 .right-view {
-  flex: 70%;
-  background-color: #f3f2f2c9;
-  margin: 2px;
-  border-radius: 10px;
-  padding: 1%;
+    flex: 70%;
+    background-color: #e6e6e661;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 1%;
+    color: #484444e6;
 }
 .image-container {
   justify-content: center;
@@ -92,12 +93,57 @@ progress {
     font-size: 3vw !important;
     cursor: pointer;
 }
+.head-text-style{
+  color: #252222;
+}
+.experience-content{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.card-content{
+  padding: 2%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  height: fit-content;
+  background-color: white;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
+}
+.company-name{
+  font-size: 12px;
+}
 
 a {
   color: #d2d0cd;
 }
+.intro-text-size{
+  font-size: 1.5vw;
+}
 .next {
   margin-top: 10%;
+}
+.subheding{
+  font-size: 2vw;
+}
+.knowledge-area{
+  display: flex;
+  flex-direction: row;
+}
+.knowledge-left{
+  flex-direction: column;
+  flex: 1;
+  font-size: 1.4vw;
+  margin: 1%;
+  flex-wrap: wrap;
+}
+.knowledge-left > div {
+  margin: 1%;
+}
+.knowledge-left > div > i {
+  margin-right: 3%;
+}
+.knowledge-heading{
+  font-size: 1.6vw;
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   .image-box {
@@ -106,5 +152,15 @@ a {
   }
   .resume-container {
     height: 100%;
+  }
+  .head-text-style{
+    font-size: 3vh;;
+  }
+  .knowledge-heading{
+    font-size: 2vw;
+  }
+  .knowledge-left{
+    font-size: 1.8vw;
+
   }
 }
